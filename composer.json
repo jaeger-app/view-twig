@@ -1,0 +1,21 @@
+{
+	"name": "jaeger-app/view-twig",
+	"description": "A Smarty wrapper for the Jaeger View Helpers.",
+	"require": {
+		"php": ">=5.4.0",
+		"jaeger-app/view": "dev-master"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "4.*"
+	},
+	"authors": [{
+		"name": "Eric Lamb",
+		"email": "eric@mithra62.com"
+	}],
+	"autoload": {
+		"psr-4": {
+			"JaegerApp\\": "src/"
+		}
+	},
+	"license": "MIT"
+}
