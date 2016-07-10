@@ -11,8 +11,8 @@ namespace JaegerApp\Platforms\View;
 
 use Twig_Extension;
 use Twig_Filter_Method;
-use mithra62\Traits\View\Helpers As ViewHelpers;
-use mithra62\Platforms\View\ViewInterface;
+use JaegerApp\Traits\View\Helpers As ViewHelpers;
+use JaegerApp\Platforms\View\ViewInterface;
 
 /**
  * mithra62 - Twig View Helpers
